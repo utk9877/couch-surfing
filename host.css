@@ -1,0 +1,176 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #2c3e50;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.9);
+    color: #3A7CA5;
+    padding: 20px 50px;
+    display: flex;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.logo1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #2E3C50;
+    text-decoration: none;
+}
+
+.host-hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #3A7CA5;
+    color: white;
+}
+
+.host-hero button {
+    background: white;
+    color: #3A7CA5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.host-hero button:hover {
+    background: #2c3e50;
+    color: white;
+}
+
+.host-form-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+
+.host-form-container h2 {
+    color: #3A7CA5;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #3A7CA5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2c3e50;
+}
+
+.reviews {
+    text-align: center;
+    padding: 50px 20px;
+    background: #2c3e50;
+    color: white;
+}
+
+.review-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.review {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-about {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-about h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-contact {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-contact h4 {
+    margin-bottom: 10px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li a {
+    color: white;
+    text-decoration: none;
+}

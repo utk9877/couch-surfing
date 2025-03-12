@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Host</title>
+    <link rel="stylesheet" href="host.css">
+</head>
+<body>
+
+    <!-- 🔹 Header (Same as Home Page) -->
+    <header>
+        <h1><a href="index.html" class="logo1">CouchSurf</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="host.html">Host</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 🏡 Host Registration Section -->
+    <section class="host-hero">
+        <h2>Start Hosting & Welcome Travelers</h2>
+        <p>Share your space, meet amazing people, and become part of a global travel community.</p>
+        <button onclick="document.getElementById('host-form').scrollIntoView();">Get Started</button>
+    </section>
+
+    <!-- ✍ Host Registration Form -->
+    <section class="host-form-container" id="host-form">
+        <h2>Host Registration</h2>
+        <form id="host-registration">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="location">Your Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="space">Type of Space Offered:</label>
+            <select id="space" name="space">
+                <option value="private-room">Private Room</option>
+                <option value="shared-room">Shared Room</option>
+                <option value="entire-place">Entire Place</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="description">Short Description:</label>
+            <textarea id="description" name="description" rows="4"></textarea>
+
+            <button type="submit">Register as a Host</button>
+        </form>
+    </section>
+
+    <!-- 🌟 Testimonials -->
+    <section class="reviews">
+        <h2>What Our Hosts Say</h2>
+        <div class="review-container">
+            <div class="review">
+                <p>“Hosting travelers has been an incredible experience! I’ve made lifelong friends.”</p>
+                <strong>— Aman, Mumbai</strong>
+            </div>
+            <div class="review">
+                <p>“A great way to share culture and meet like-minded travelers from all over the world.”</p>
+                <strong>— Priya, Bangalore</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🔹 Footer (Same as Home Page) -->
+    <footer>
+        <div class="footer-container">
+            <div class="quick-links">
+                <h4>About Us</h4>
+                <p>Connecting travelers with locals for unique stays.</p>
+            </div>
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <h4>Contact Us</h4>
+                <p>Email: support@couchsurfing.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="host.js"></script>
+</body>
+</html>
